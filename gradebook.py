@@ -8,7 +8,7 @@ def main(): # main method!
         "b. print the average grade of a subject \n" \
         "c. print the average GPA \n" \
         "d. add a grade to a particular subject \n" \
-        "please type 'a', 'b', 'c', or 'd' lowercase. \n\n")
+        "please type 'a', 'b', 'c', or 'd' lowercase. \n\n") # will default to option d
 
     if choice == 'a' :
         print_all_averages()
